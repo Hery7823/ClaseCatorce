@@ -8,7 +8,9 @@ for (let index = 0; index < NumeroEntero.length; index++) {
 }
 
 //Imprimir
-var resul=document.getElementById("resultado");
+var resultado=document.getElementById("resultado");
 for (let index = 0; index < NumeroEntero.length; index++) {
-      resul.innerHTML +="El número es: " + NumeroEntero[index] +"<br/>"; 
+      resultado.innerHTML +="El número es: " + NumeroEntero[index] +"<br/>"; 
 }
+
+

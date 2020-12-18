@@ -11,7 +11,8 @@ var resul = document.getElementById("resultado");
 
 
 alert("Registro de Datos");
-for (let index = 0; index < 3; index++) {
+for (let index = 0; index < 3; index++) 
+{
   nombres[index] = prompt(
     "Registro: N° " + (index + 1) + " Por favor ingrese su nombre"
   );

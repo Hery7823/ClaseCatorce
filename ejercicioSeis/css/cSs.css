@@ -102,3 +102,36 @@ footer
 }
 
 
+.menu 
+{
+  
+  list-style: none;
+  padding: 0px;
+  background: white;  
+  font-size: 18px;
+  width: 90%;
+  max-width: 1000px;
+  margin-top: -20px;
+  margin-left: 200px;
+  border-radius: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  display: block;
+}
+
+.menu li a:hover {
+  background: #ef8354;
+  padding: 12px;
+}
+
+
+

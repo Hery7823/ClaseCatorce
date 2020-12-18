@@ -23,7 +23,7 @@ for (let index = 0; index < arryNumeroUno.length; index++)
 
 var resul=document.getElementById("resultado");
 
-resul.innerHTML ="Promedio bien"+"<br/>"+"<br/>";     
+resul.innerHTML ="Promedio"+"<br/>"+"<br/>";     
 resul.innerHTML +=(acumulador/10).toFixed(2); 
 
 
